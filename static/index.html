@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chocolate House Management</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Chocolate House Seasonal Flavors</h1>
+
+        <div class="form-container">
+            <h2>Add a New Flavor</h2>
+            <form id="flavorForm">
+                <input type="text" id="flavorName" placeholder="Flavor Name" required>
+                <input type="text" id="flavorDescription" placeholder="Description">
+                <label>
+                    Available:
+                    <input type="checkbox" id="flavorAvailable" checked>
+                </label>
+                <button type="submit">Add Flavor</button>
+            </form>
+        </div>
+
+        <h2>Available Flavors</h2>
+        <div id="flavorsList"></div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
