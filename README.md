@@ -17,3 +17,5 @@ Step 4: Run the Application
 Open a web browser and go to:
   http://127.0.0.1:5000/
 here the application will run by default
+
+![image](https://github.com/user-attachments/assets/82f04420-66b7-43e1-a615-b73baf6bfa3b)
